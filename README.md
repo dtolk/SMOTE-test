@@ -1,5 +1,7 @@
 # Handling imbalanced classification problems with SMOTE
 
+![text](figs/performance.png)
+
 There are several ways of dealing with imbalanced data:
 
 - Undersampling
@@ -47,6 +49,7 @@ A brute force oversampling the minority class can result in overfitting if we ov
 If we first start cross-validatiing, at each iteration we exclude the samples to be used in the validation set, and then oversample the remaining of the minority class.
 
 ## References
+
 [1] SMOTE: Synthetic Minority Over-sampling Technique, Nitesh V. Chawla et al, (2002) https://arxiv.org/pdf/1106.1813.pdf
 
 [2] ADASYN: Adaptive Synthetic Sampling Approach for Imbalanced
